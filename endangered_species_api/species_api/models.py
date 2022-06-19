@@ -11,4 +11,4 @@ class Species(models.Model):
     diet = models.CharField(max_length=64)
     image = models.CharField(max_length=255)
     level = models.IntegerField()
-    description = models.TextField(blank=True)
+    description = models.CharField(max_length=255)
